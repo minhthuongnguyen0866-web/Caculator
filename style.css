@@ -1,0 +1,87 @@
+
+/* Thiết lập toàn bộ trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8edf5;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Khung máy tính */
+.maytinh {
+    width: 320px;
+    background-color: #222831;
+
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* Tiêu đề */
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Màn hình */
+#manhinh {
+    width: 100%;
+    height: 65px;
+
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 8px;
+
+    text-align: right;
+    font-size: 28px;
+
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Khu vực các nút */
+.cacnut {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Nút bấm */
+button {
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    background-color: #eeeeee;
+}
+
+/* Khi di chuột vào nút */
+button:hover {
+    background-color: #cccccc;
+}
+
+/* Nút phép tính */
+.pheptinh {
+    background-color: #ff9500;
+    color: white;
+}
+
+/* Nút bằng */
+.bang {
+    background-color: #00a86b;
+    color: white;
+    grid-column: span 2;
+}
